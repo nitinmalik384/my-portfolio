@@ -1,0 +1,25 @@
+.btn{
+    /* flex:1; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    /* background-color: rgb(0, 0, 0); */
+}
+.primary{
+    background-color: #303056;
+    border: 2px solid #303056;
+
+
+}
+.primary:hover,.primary-outline:hover{
+    background-color: #fff;
+    color: #303056;
+    transition-duration: 500ms;
+    border: 2px solid #fff;
+}
+.primary-outline{
+    background-color: transparent;
+    border: 2px solid #303056;
+    backdrop-filter: blur(15px);
+}
